@@ -25,7 +25,7 @@ require UUID::Random;
 This module makes L<UUID::Random> use C<rand()> from L<Math::Random::Secure>
 instead of the default C<rand()> that comes with Perl. It is useful for creating
 cryptographically secure UUID's. On the other hand, as a note, this makes
-generate() around 20 times slower.
+generate() around 20 times slower on my PC.
 
 After you C<use> this module, use UUID::Random as usual.
 
